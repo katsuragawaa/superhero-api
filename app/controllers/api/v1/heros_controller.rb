@@ -30,7 +30,7 @@ module Api
 						message: "Created hero",
 						data: hero
 						},
-					status: :ok
+					status: :created
 				else
 					render json: {
 						status: "Error",
